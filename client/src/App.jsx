@@ -16,7 +16,7 @@ function App() {
             path="/"
             element={
               isAuth ? (
-                <Navigate to="/char" />
+                <Navigate to="/chat" />
               ) : (
                 <Login setUser={setUser} setSecret={setSecret} />
               )
